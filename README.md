@@ -20,8 +20,8 @@ O projeto segue o fluxo clássico de engenharia de dados:
 
 1.  **Extract (Extração):** O script lê o arquivo `aprovados.csv` contendo as colunas de nome, nota e resultado.
 2.  **Transform (Transformação):** - Limpeza de dados (se necessário).
-    - Criação da coluna `mensagem_cordial` utilizando f-strings para personalização.
-3.  **Load (Carga):** O resultado é salvo em um novo arquivo (ex: `resultados_processados.csv`), mantendo a integridade dos dados originais.
+    - Criação da coluna `Resposta` utilizando f-strings para personalização.
+3.  **Load (Carga):** O resultado é salvo em um novo arquivo (ex: `resultado_final.csv`), mantendo a integridade dos dados originais.
 
 ##  Como Utilizar
 
